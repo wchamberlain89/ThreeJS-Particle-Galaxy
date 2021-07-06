@@ -8,10 +8,16 @@ import { IncrementWrapStencilOp } from 'three'
  * Base
  */
 // Debug
-const gui = new dat.GUI({ width: 300, autoPlace: false })
-const GUIContainer = document.getElementById('gui');
 
-GUIContainer.appendChild(gui.domElement)
+const gui = new dat.GUI()
+
+/**
+ * GUI RESIZE FOR LOCALHOST
+ */
+// const gui = new dat.GUI({ width: 300, autoPlace: false })
+// const GUIContainer = document.getElementById('gui');
+
+// GUIContainer.appendChild(gui.domElement)
 
 // Canvas
 const canvas = document.querySelector('.webgl')
