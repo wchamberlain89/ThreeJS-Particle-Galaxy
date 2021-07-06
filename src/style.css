@@ -1,0 +1,23 @@
+
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+#gui {
+	position: absolute;
+    right: 600px;   /* position inside relatively positioned parent */
+	top: 1000px;
+    z-index: 10;   /* adjust as needed */
+    transform: scale(4);
+}
